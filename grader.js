@@ -48,7 +48,7 @@ var cheerioUrlFile = function(urlFile) {
       console.log('Error: ' + result.message);
       process.exit(1);
     } else {
-      console.log('Got url content: ' + result);
+      // console.log('Got url content: ' + result);
       return cheerio.load(result);
     }
   });    
